@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e4d2fdc525.js" 
+	crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.min.js"></script>
+    <title>Meu Album de Fotos - Histórico</title>
+</head>
+<!--Linha 1 - Cabeçalho-->
+<div class="row" style="margin: 20px;">
+    <!--Linha 1 Coluna 1 -->
+    <div id="fundoEsq" style="font-size:30px; color:#F5F5F5;">
+        <img width="15%" height="100%" style="border-radius: 50px; width: 70px; height: 70px;" src="img/imagem.png" alt = "Logotipo">  Meu Album de Fotos
+    </div>
+    <!--Linha 1 Coluna 2 -->
+    <div id="fundoDir">
+        <a href="cadastra.html"> 
+            <img id="botao" style="border-radius: 50px; width: 70px; height: 70px; margin: 1px;" width="10%" height="90%" src="img/contato.png" alt = "Atalho 1" >
+        </a>
+        <a href="album.html"> 
+            <img id="botao" style="border-radius: 50px; width: 70px; height: 70px; margin: 1px;" width="10%" height="90%" src="img/album.png" alt = "Atalho 2" >
+        </a>
+    </div>
+</div>
+<!--Linha 2 Coluna 1 -->
+<div class="row" style="margin-left: 1px;">
+    <div style="clear: both"></div>
+        <div id="barraMenu">
+            <div class="btn-toolbar">
+                <div class="btn-group">
+                    <a href="index.html"><button type="button" class="dropbtn"><i class="fas fa-home fa-lg"></i> Home</button></a>
+                        <!—-Menu 1-->
+                        <div class="dropdown">
+                            <button type="button" class="dropbtn " style="color: #cfd8dc;"><i class="fas fa-bars fa-lg"></i>  Texto e Formulário</button>
+                                <div class="dropdown-content">
+                                    <a href="historico.html">Histórico</a><br>
+                                    <a href="cadastra.html">Contato</a><br>
+                                </div>
+                        </div>
+                        <!--Fim Menu 1-->
+                        <!--Menu 2-->
+                        <div class="dropdown">
+                            <button type="button" class="dropbtn"><i class="fas fa-camera fa-lg"></i>   Fotos</button>
+                            <div class="dropdown-content">
+                                <a href="album.html">Álbum</a><br>
+                                <a href="protecao.html">Proteção</a><br>
+                            </div>
+                        </div>
+                        <!--Fim Menu 2-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--Fim Linha 2 Coluna 1 -->
+
+<body>
+    
+       <script src = "./js/bootstrap.min.js"></script>
+        <h1 style="font-size:60px;color:#F5F5F5;margin: 30px;text-align: center;"><i class="fas fa-book-open fa-lg"></i>  Histórico da família</h1>
+        <div class = "container-fluid">
+            <div class = "row  justify-content-center">
+                <img class = "img-fluid" src="./img/historico.png" height="60%" width="60%"
+                alt="Linha do tempo das adoções dos cães e gatos">
+        </div>
+        <div class="row" style="display: flex;
+        justify-content: center; align-items: center;">
+            <ul style="list-style-type:square;margin-top: -5cm;">
+                <li><h5>2009 - Adoção do Chewbaca e Bonitinha</h5></li>
+                <li><h5>2014 - Adoção da família Peppa: Mãezinha Peppa com três filhos nascidos <br>
+                    (Seara, Furjão e Perdigão) e Prenhe de cinco (Charlie, Mike, Millie, Freddie e mais
+                    um moreninho doado)</h5></li>
+                <li><h5>2016 - Adoção da Família Fera: Franklin, Nina e Zezinho</h5></li>
+                <li><h5>2019 - Adoção do Bill e Harry</h5></li>
+            </ul>
+        </div>
+    
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e4d2fdc525.js" 
+	crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.min.js"></script>
+    <title>Meu Album de Fotos - Album</title>
+</head>
+<!--Linha 1 - Cabeçalho-->
+<div class="row" style="margin: 20px;">
+    <!--Linha 1 Coluna 1 -->
+    <div id="fundoEsq" style="font-size:30px; color:#F5F5F5;">
+        <img width="15%" height="100%" style="border-radius: 50px; width: 70px; height: 70px;" src="img/imagem.png" alt = "Logotipo">  Meu Album de Fotos
+    </div>
+    <!--Linha 1 Coluna 2 -->
+    <div id="fundoDir">
+        <a href="cadastra.html"> 
+            <img id="botao" style="border-radius: 50px; width: 70px; height: 70px; margin: 1px;" width="10%" height="90%" src="img/contato.png" alt = "Atalho 1" >
+        </a>
+        <a href="album.html"> 
+            <img id="botao" style="border-radius: 50px; width: 70px; height: 70px; margin: 1px;" width="10%" height="90%" src="img/album.png" alt = "Atalho 2" >
+        </a>
+    </div>
+</div>
+<!--Linha 2 Coluna 1 -->
+<div class="row" style="margin-left: 1px;">
+    <div style="clear: both"></div>
+        <div id="barraMenu">
+            <div class="btn-toolbar">
+                <div class="btn-group">
+                    <a href="index.html"><button type="button" class="dropbtn"><i class="fas fa-home fa-lg"></i> Home</button></a>
+                        <!—-Menu 1-->
+                        <div class="dropdown">
+                            <button type="button" class="dropbtn"><i class="fas fa-bars fa-lg"></i>  Texto e Formulário</button>
+                                <div class="dropdown-content">
+                                    <a href="historico.html">Histórico</a><br>
+                                    <a href="cadastra.html">Contato</a><br>
+                                </div>
+                        </div>
+                        <!--Fim Menu 1-->
+                        <!--Menu 2-->
+                        <div class="dropdown">
+                            <button type="button" class="dropbtn" style="color: #cfd8dc;"><i class="fas fa-camera fa-lg"></i>   Fotos</button>
+                            <div class="dropdown-content">
+                                <a href="album.html">Álbum</a><br>
+                                <a href="protecao.html">Proteção</a><br>
+                            </div>
+                        </div>
+                        <!--Fim Menu 2-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--Fim Linha 2 Coluna 1 -->
+
+
+<body>
+    
+    <script src="./js/bootstrap.min.js"></script>
+    <div class="slidershow middle">
+        <div class="slides">
+            <input type="radio" name="r" id="r1" checked>
+            <input type="radio" name="r" id="r2">
+            <input type="radio" name="r" id="r3">
+            <input type="radio" name="r" id="r4">
+            <input type="radio" name="r" id="r5">
+            <div class="slide">
+                <img src="img/img1.jpg" alt="" style="width: 700px;height: 400px;">
+            </div>
+            <div class="slide s1">
+                <img src="img/img2.jpg" alt="" style="width: 700px;height: 400px;">
+            </div>
+            <div class="slide">
+                <img src="img/img3.jpg" alt="" style="width: 700px;height: 400px;">
+            </div>
+            <div class="slide">
+                <img src="img/img4.jpg" alt="" style="width: 700px;height: 400px;">
+            </div>
+            <div class="slide">
+                <img src="img/img5.jpeg" alt="" style="width: 700px;height: 400px;">
+            </div>
+        </div>
+        <div class="navigation">
+            <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+            <label for="r3" class="bar"></label>
+            <label for="r4" class="bar"></label>
+            <label for="r5" class="bar"></label>
+        </div>
+    </div>
+   
+</body>
+</html>
